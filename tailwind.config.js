@@ -18,6 +18,14 @@ module.exports = {
       },
     },
     extend: {
+      navFont: {
+        color: "#050038",
+        fontFamily: "Inter",
+        fontSize: "16px",
+        fontStyle: "normal",
+        fontWeight: 400,
+        lineHeight: "24px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
