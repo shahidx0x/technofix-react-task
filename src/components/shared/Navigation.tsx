@@ -111,11 +111,11 @@ const Navigation = () => {
                   src="../../../public/assets/image/navigation/world.svg"
                   alt="translate"
                 />
-                <p className="hover:font-bold">EN</p>
+                <p className="hover:font-bold cursor-pointer">EN</p>
               </p>
-              <p className="hover:font-bold">Contact sales</p>
-              <p className="hover:font-bold">Login</p>
-              <Button className="flex gap-1 rounded-full bg-[#4262FF]">
+              <p className="hover:font-bold cursor-pointer">Contact sales</p>
+              <p className="hover:font-bold cursor-pointer">Login</p>
+              <Button className="flex gap-1 rounded-full cursor-pointer bg-[#4262FF]">
                 <span>Sign up free</span>
                 <GoArrowRight />
               </Button>

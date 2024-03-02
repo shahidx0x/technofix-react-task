@@ -1,6 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout";
+import Header from "./components/header/Header";
 function App() {
   const router = createBrowserRouter([
     {
@@ -9,7 +10,11 @@ function App() {
       children: [
         {
           path: "/",
-          element: <div>hellos</div>,
+          element: (
+            <div>
+              <Header />
+            </div>
+          ),
         },
       ],
     },
