@@ -14,7 +14,7 @@ import { Menu } from "lucide-react";
 const Navigation = () => {
   return (
     <>
-      <div className="w-full small:w-[105%] sm:w-full h-[90px] border border-b-1 flex items-center">
+      <div className="w-full small:w-[100%] sm:w-full h-[90px] border border-b-1 flex items-center">
         <div className="flex justify-between w-full items-center px-5 md:px-5 lg:px-5 2xl:px-32 ">
           {/* left of the navigation bar */}
           <div>

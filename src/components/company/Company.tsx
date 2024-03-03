@@ -3,7 +3,7 @@ import { company } from "@/constant/company";
 const Company = () => {
   return (
     <>
-      <div className="flex justify-center items-center mt-[200px] sm:mt-[400px] md:mt-[470px] lg:mt-2">
+      <div className="flex justify-center items-center mt-[200px] xs:mt-[10px] sm:mt-[400px] md:mt-[470px] lg:mt-2">
         <div className="w-[1400px] flex flex-col gap-[48px] justify-center">
           <h1 className="text-center font-medium text-[30px] leading-[24px]">
             Trusted by 45M+ users
