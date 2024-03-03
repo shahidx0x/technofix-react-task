@@ -1,4 +1,4 @@
-export const collaborate = [
+export const features = [
   {
     title: "Free forever",
     description:
