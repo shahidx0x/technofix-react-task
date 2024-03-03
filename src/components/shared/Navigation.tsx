@@ -26,7 +26,7 @@ const Navigation = () => {
               {navigation.map((each_nav) => (
                 <p
                   key={each_nav.title}
-                  className="hidden md:flex pt-2 gap-1 items-center"
+                  className="hidden lg:flex pt-2 gap-1 items-center"
                 >
                   <span>
                     <span className="cursor-pointer font-medium hover:font-bold">
@@ -40,7 +40,7 @@ const Navigation = () => {
               ))}
             </div>
           </div>
-          <div className="flex md:hidden items-center pt-1">
+          <div className="flex lg:hidden items-center pt-1">
             {/* hamburger menu for mobile device */}
             <Sheet>
               <SheetTrigger>
@@ -104,7 +104,7 @@ const Navigation = () => {
             </Sheet>
           </div>
           {/* right side of the navigation bar */}
-          <div className="hidden md:flex">
+          <div className="hidden lg:flex">
             <div className="flex gap-8 lg:gap-2 xl:gap-8 lg:mt-2 items-center font-medium">
               <p className="flex gap-1 hover:font-bold">
                 <img

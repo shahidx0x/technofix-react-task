@@ -8,7 +8,6 @@ export default function Layout() {
       <div>
         <Navigation />
         <Outlet />
-        <Footer />
       </div>
     </>
   );
