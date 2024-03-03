@@ -1,7 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout";
-import Header from "./components/header/Header";
+import Header from "./components/Hero/Hero";
 function App() {
   const router = createBrowserRouter([
     {
