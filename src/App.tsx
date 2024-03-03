@@ -1,9 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout";
-import Hero from "./components/Hero/Hero";
-import Company from "./components/company/Company";
-import Feature from "./components/feature/Feature";
+import Page from "./Page";
 function App() {
   const router = createBrowserRouter([
     {
@@ -12,13 +10,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: (
-            <div>
-              <Hero />
-              <Company />
-              <Feature />
-            </div>
-          ),
+          element: <Page />,
         },
       ],
     },
