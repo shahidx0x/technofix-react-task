@@ -5,8 +5,8 @@ import { Button } from "../ui/button";
 const Hero = () => {
   return (
     <>
-      <div className="w-full flex justify-center  md:pt-[100px]">
-        <div className="flex gap-5 md:gap-[60px] items-center flex-col lg:flex-row w-[1400px] h-[700px]">
+      <div className="w-full flex justify-center pt-2 md:pt-[100px] lg:pt-5">
+        <div className="flex gap-5 md:gap-[60px] items-center flex-col lg:flex-row  lg:w-[1000px] xl:w-[1400px] h-[700px]">
           <div className="">
             <div>
               <p className="text-[#050038] text-5xl text-center lg:text-left md:text-[60px] md:mb-5 font-bold leading-[60px]">
@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="w-[400px] md:w-[800px] lg:w-[1200px] md:h-full flex justify-center items-center">
+          <div className="w-[400px] md:w-[800px] xl:w-[1200px] md:h-full flex justify-center items-center">
             <img
               src="../../../public/assets/image/header/header.svg"
               alt=""

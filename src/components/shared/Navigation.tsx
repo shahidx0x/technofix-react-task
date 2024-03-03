@@ -15,7 +15,7 @@ const Navigation = () => {
   return (
     <>
       <div className="w-full h-[90px] border border-b-gray-200 flex items-center">
-        <div className="flex justify-between w-full items-center pl-5 pr-5 md:pl-32 md:pr-32 lg:pl-0 lg:pr-0 xl:pl-32 xl:pr-32 ">
+        <div className="flex justify-between w-full items-center pl-5 pr-5 md:pl-32 md:pr-32 lg:pl-2 lg:pr-2 xl:pl-32 xl:pr-32 ">
           {/* left of the navigation bar */}
           <div>
             <div className="flex gap-8 items-center">
