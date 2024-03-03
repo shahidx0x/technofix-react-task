@@ -15,7 +15,7 @@ const Hero = () => {
               <p className="pt-5 p-2 md:p-0 md:w-full text-gray-600 md:flex text-md md:text-[1.4rem] lg:text-left text-center">
                 {header.header_paragraph}
               </p>
-              <div className="flex justify-center flex-col items-center w-full">
+              <div className="flex md:px-7 lg:px-0 justify-center flex-col items-center w-full">
                 <div className="pt-5 w-96 md:w-full">
                   <Input
                     className="p-6 w-full rounded-full"
@@ -27,10 +27,10 @@ const Hero = () => {
                   Sign up free
                 </Button>
               </div>
-              <p className="font-sans text-center md:text-left text-gray-500 text-sm p-2">
+              <p className="font-sans md:px-8 lg:px-2 text-center md:text-left text-gray-500 text-sm p-2">
                 Collaborate with your team within minutes
               </p>
-              <div className="p-2 md:p-0">
+              <div className="p-2 md:p-8 lg:p-0">
                 <div className=" w-full lg:w-[400px] md:h-[100px] mt-[20px] bg-[#F5F5F7] rounded-md flex justify-center items-center gap-2 p-5">
                   <div className="md:w-[200px] md:h-[40px]">
                     <div className="flex gap-1">
