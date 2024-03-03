@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="w-[400px] md:w-[800px] xl:w-[1200px] md:h-full flex justify-center items-center">
+          <div className="w-[400px] md:w-[800px] lg:w-full xl:w-[1200px] md:h-full flex justify-center items-center">
             <img
               src="../../../public/assets/image/header/header.svg"
               alt=""

@@ -14,8 +14,8 @@ import { Menu } from "lucide-react";
 const Navigation = () => {
   return (
     <>
-      <div className="w-full h-[90px] border border-b-gray-200 flex items-center">
-        <div className="flex justify-between w-full items-center pl-5 pr-5 md:pl-32 md:pr-32 lg:pl-2 lg:pr-2 xl:pl-32 xl:pr-32 ">
+      <div className="w-full small:w-[105%] h-[90px] border border-b-gray-200 flex items-center">
+        <div className="flex justify-between w-full items-center px-5 md:px-32 lg:px-5 2xl:px-32 ">
           {/* left of the navigation bar */}
           <div>
             <div className="flex gap-8 items-center">
@@ -105,7 +105,7 @@ const Navigation = () => {
           </div>
           {/* right side of the navigation bar */}
           <div className="hidden lg:flex">
-            <div className="flex gap-8 lg:gap-2 xl:gap-8 lg:mt-2 items-center font-medium">
+            <div className="flex gap-8 lg:gap-2 lg:mt-2 xl:gap-3 2xl:gap-8 items-center font-medium">
               <p className="flex gap-1 hover:font-bold">
                 <img
                   src="../../../public/assets/image/navigation/world.svg"
