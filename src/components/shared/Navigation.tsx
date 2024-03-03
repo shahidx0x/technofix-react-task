@@ -15,7 +15,7 @@ const Navigation = () => {
   return (
     <>
       <div className="w-full small:w-[105%] sm:w-full h-[90px] border border-b-1 flex items-center">
-        <div className="flex justify-between w-full items-center px-5 md:px-32 lg:px-5 2xl:px-32 ">
+        <div className="flex justify-between w-full items-center px-5 md:px-5 lg:px-5 2xl:px-32 ">
           {/* left of the navigation bar */}
           <div>
             <div className="flex gap-8 items-center">
@@ -105,7 +105,7 @@ const Navigation = () => {
           </div>
           {/* right side of the navigation bar */}
           <div className="hidden lg:flex">
-            <div className="flex gap-8 lg:gap-2 lg:mt-2 lg:pr-12 xl:gap-3 2xl:gap-8 items-center font-medium">
+            <div className="flex gap-8 lg:gap-2 lg:mt-2 lg:pr-0 xl:gap-3 2xl:gap-8 items-center font-medium">
               <p className="flex gap-1 hover:font-bold">
                 <img
                   src="../../../public/assets/image/navigation/world.svg"
