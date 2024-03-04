@@ -1,4 +1,5 @@
 import { Button } from "../ui/button";
+import ReviewCard from "./ReviewCard/ReviewCard";
 
 const Review = () => {
   return (
@@ -10,6 +11,11 @@ const Review = () => {
         <Button className="rounded-full p-5 px-10 bg-white border border-indigo-500 hover:bg-indigo-200 hover:border-indigo-200 hover:text-gray-500 text-indigo-500">
           See all customer stories →
         </Button>
+        <div className="flex gap-5">
+          <ReviewCard />
+          <ReviewCard />
+          <ReviewCard />
+        </div>
       </div>
     </div>
   );
