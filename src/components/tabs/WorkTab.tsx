@@ -1,6 +1,9 @@
 import { tabs_one } from "@/constant/tabsheader";
+import BContent from "./BuiltTabContant/BContent";
+import { useState } from "react";
 
 const WorkTab = () => {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
   return (
     <div className="flex justify-center items-center">
       <div className="flex flex-col gap-10 w-[1200px] h-[800px]">
@@ -11,14 +14,27 @@ const WorkTab = () => {
           <div className="flex justify-center md:justify-start flex-wrap gap-5 font-medium">
             {tabs_one.map((e, index) => (
               <div
+                onClick={() => setActiveIndex(index)}
                 key={index}
-                className="px-5 h-[50px] border rounded-full flex justify-center items-center hover:bg-[#F1F3FD]"
+                className={
+                  activeIndex === index
+                    ? "px-5 h-[50px] border rounded-full flex justify-center items-center bg-[#F1F3FD]"
+                    : "px-5 h-[50px] border rounded-full flex justify-center items-center hover:bg-[#F1F3FD]"
+                }
               >
                 <p className="font-sans cursor-pointer">{e.title}</p>
               </div>
             ))}
           </div>
         </div>
+        {tabs_one.map((e, index: number) => {
+          const position = index % 2;
+          return (
+            activeIndex === index && (
+              <BContent key={index} reverse={!!position} />
+            )
+          );
+        })}
       </div>
     </div>
   );
