@@ -13,7 +13,7 @@ const BContent = ({ reverse }: Content) => {
       >
         <div className="flex flex-col gap-10 max-w-[400px] pt-5 p-5">
           <h1 className="tab-title">Brainstorming</h1>
-          <p className="break-all ">
+          <p className="break-all text-gray-500 ">
             Unleash creative ideas and build on them with the help of sticky
             notes, images, mind maps, videos, drawing capabilities — the list
             goes on.
