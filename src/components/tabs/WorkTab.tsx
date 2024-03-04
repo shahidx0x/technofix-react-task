@@ -1,6 +1,6 @@
 import { tabs_one } from "@/constant/tabsheader";
-import BContent from "./BuiltTabContant/BContent";
 import { useState } from "react";
+import BContent from "./BuiltTabContant/BContent";
 
 const WorkTab = () => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
