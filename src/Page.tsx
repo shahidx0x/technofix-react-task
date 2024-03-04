@@ -6,6 +6,7 @@ import { banner_one, banner_two } from "./constant/banners";
 import Cta from "./components/cta/Cta";
 import WorkTab from "./components/tabs/WorkTab";
 import BuiltTab from "./components/tabs/BuiltTab";
+import Review from "./components/review/Review";
 
 const Page = () => {
   return (
@@ -18,6 +19,7 @@ const Page = () => {
       <Cta />
       <WorkTab />
       <BuiltTab />
+      <Review />
     </>
   );
 };
