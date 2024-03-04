@@ -14,7 +14,7 @@ const Banner = ({ reverse, info }: BannerProps) => {
           <h1 className="text-2xl px-[5rem] md:px-0 text-center md:text-left md:text-[48px] font-bold leading-8 md:leading-[3rem]">
             {info.title}
           </h1>
-          <p className="md:pt-5 text-sm text-center md:text-left px-[7rem] md:px-0 md:text-xl font-thin break-all md:pr-10">
+          <p className="md:pt-5 text-sm text-center md:text-left px-[3rem] md:px-0 md:text-xl font-thin break-all md:pr-10">
             {info.paragraph}
           </p>
           <p className="text-blue-500 text-center md:text-left underline">
