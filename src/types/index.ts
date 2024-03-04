@@ -6,3 +6,7 @@ export interface BannerProps {
     image: string;
   };
 }
+
+export interface Content {
+  reverse: boolean;
+}
