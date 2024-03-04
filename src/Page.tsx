@@ -4,6 +4,7 @@ import Feature from "./components/feature/Feature";
 import Banner from "./components/banner/Banner";
 import { banner_one, banner_two } from "./constant/banners";
 import Cta from "./components/cta/Cta";
+import WorkTab from "./components/tabs/WorkTab";
 
 const Page = () => {
   return (
@@ -14,6 +15,7 @@ const Page = () => {
       <Banner reverse={false} info={banner_one} />
       <Banner reverse={true} info={banner_two} />
       <Cta />
+      <WorkTab />
     </>
   );
 };

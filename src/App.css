@@ -76,7 +76,7 @@
 }
 
 @layer components {
-  .center-vertical{
+  .center-vertical {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,5 +96,13 @@
     align-content: flex-start;
     gap: 8px -52px;
     flex-wrap: wrap;
+  }
+  .tab-title {
+    color: #050038;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
