@@ -5,9 +5,11 @@ const WorkTab = () => {
   return (
     <div className="flex justify-center items-center">
       <div className="flex flex-col gap-10 w-[1200px] h-[800px]">
-        <h1 className="text-[48px] font-bold">Built for the way you work</h1>
+        <h1 className="text-4xl text-center md:text-start md:text-[48px] font-bold">
+          Built for the way you work
+        </h1>
         <div>
-          <div className="flex gap-5 font-medium">
+          <div className="flex justify-center md:justify-start flex-wrap gap-5 font-medium">
             {tabs_one.map((e, index) => (
               <div
                 key={index}
@@ -18,7 +20,7 @@ const WorkTab = () => {
             ))}
           </div>
         </div>
-        <div className="w-full flex justify-between">
+        <div className="w-full flex flex-col md:flex-row justify-between">
           <div className="flex flex-col gap-10 max-w-[400px] pt-5 p-5">
             <h1 className="tab-title">Brainstorming</h1>
             <p className="break-all ">
@@ -34,7 +36,7 @@ const WorkTab = () => {
           </div>
           <div>
             <img
-              className="h-[500px]"
+              className="h-full md:h-[500px]"
               src="../../../public/assets/image/tabs/Brainstormwithoutshadow.jpg.png"
               alt="worktab"
             />
