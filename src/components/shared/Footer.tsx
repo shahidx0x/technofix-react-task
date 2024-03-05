@@ -5,9 +5,9 @@ import { Button } from "../ui/button";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#02033B] py-10 px-10">
+      <div className="bg-[#02033B] py-10 xl:py-[192px] px-10 md:px-0">
         <div className="flex flex-col gap-10">
-          <div className="flex flex-col-reverse justify-center items-center gap-10">
+          <div className="flex flex-col-reverse xl:flex-row flex-wrap justify-center items-center gap-10">
             <div className="flex flex-col gap-5">
               <div>
                 <h1 className="text-white text-[28px] font-bold">
@@ -25,8 +25,8 @@ const Footer = () => {
                 <p>Privacy Policy</p>
                 <p>Terms and services</p>
               </div>
-              <div>
-                <p className="text-white">
+              <div className="w-auto md:w-[35rem]">
+                <p className="text-white break-all">
                   Copyright © 2022 Certo Software Limited | Registered in
                   England & Wales No. 10072356
                 </p>
@@ -40,7 +40,7 @@ const Footer = () => {
             <div>
               <h1 className="text-[48px] font-bold text-white">Miro.</h1>
               <div className="border bg-white w-[12rem]"></div>
-              <div className="flex flex-wrap md:flex-col gap-5 mt-12">
+              <div className="flex flex-wrap lg:flex-col gap-5 mt-12">
                 {footer_nav.map((e, index) => (
                   <div
                     key={index}
@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <div className="md:w-[630px] md:h-[300px] rounded-3xl flex justify-center items-center bg-[#FDB235]/95 relative py-5">
+              <div className="md:w-[530px] md:h-[300px] rounded-[40px] flex justify-center items-center bg-[#FDB235]/95 relative py-5">
                 <div className="z-10 px-10 flex flex-col gap-5 mt-">
                   <h1 className="font-bold text-2xl">
                     Signup to our newsletter
@@ -75,14 +75,14 @@ const Footer = () => {
                   </div>
                 </div>
                 <img
-                  className="absolute w-28"
+                  className="absolute w-28 md:w-auto"
                   src="../../../public/assets/image/common/certo-dark-yellow.svg.svg"
                   alt=""
                 />
               </div>
             </div>
           </div>
-          <div>
+          <div className="pl-0  md:pl-[100px] lg:pl-[200px] xl:pl-[250px]">
             <p className="break-all text-gray-500 font-medium max-w-[600px]">
               Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
               registered in the U.S. and other countries. App Store is a service
