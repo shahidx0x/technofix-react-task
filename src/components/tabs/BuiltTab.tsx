@@ -27,7 +27,7 @@ const BuiltTab = () => {
             ))}
           </div>
         </div>
-        {tabs_two.map((e, index: number) => {
+        {tabs_two.map((_, index: number) => {
           const position = index % 2;
           return (
             activeIndex === index && (

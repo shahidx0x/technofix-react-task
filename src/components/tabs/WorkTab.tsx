@@ -27,7 +27,7 @@ const WorkTab = () => {
             ))}
           </div>
         </div>
-        {tabs_one.map((e, index: number) => {
+        {tabs_one.map((_, index: number) => {
           const position = index % 2;
           return (
             activeIndex === index && (
