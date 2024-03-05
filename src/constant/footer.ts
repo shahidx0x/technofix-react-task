@@ -1,15 +1,15 @@
 export const social = [
   {
     title: "twitter",
-    image: "../../public/assets/image/social/twitter.svg",
+    image: "./assets/image/social/twitter.svg",
   },
   {
     title: "facebook",
-    image: "../../public/assets/image/social/facebook.svg",
+    image: "./assets/image/social/facebook.svg",
   },
   {
     title: "youtube",
-    image: "../../public/assets/image/social/youtube.svg",
+    image: "./assets/image/social/youtube.svg",
   },
 ];
 
