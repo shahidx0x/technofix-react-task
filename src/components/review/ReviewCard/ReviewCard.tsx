@@ -2,7 +2,7 @@ import { IReviewCard } from "@/types";
 
 const ReviewCard = ({ title, title_image, description, user }: IReviewCard) => {
   return (
-    <div className="w-[360px] h-[460px] flex flex-col gap-10 relative">
+    <div className="px-10 md:px-0 w-[360px] h-[460px] flex flex-col gap-10 relative">
       <div className="w-[280px] h-[60px]">
         <img src={title_image} alt={title} />
       </div>

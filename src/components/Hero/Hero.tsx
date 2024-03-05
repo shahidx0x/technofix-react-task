@@ -16,14 +16,15 @@ const Hero = () => {
                 {header.header_paragraph}
               </p>
               <div className="flex md:px-7 lg:px-0 justify-center flex-col items-center w-full">
-                <div className="pt-5 w-96 xs:w-64 md:w-full">
+                <div className="pt-5 w-full">
                   <Input
                     className="p-6 w-full rounded-full"
                     type="email"
                     placeholder="Enter your work email"
                   />
                 </div>
-                <Button className="bg-[#4262FF] mt-4 mb-2 rounded-full p-6 w-96 md:w-full lg:w-full">
+
+                <Button className="bg-[#4262FF] mt-4 mb-2 rounded-full p-6 w-full">
                   Sign up free
                 </Button>
               </div>

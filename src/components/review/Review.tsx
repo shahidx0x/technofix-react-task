@@ -4,7 +4,7 @@ import ReviewCard from "./ReviewCard/ReviewCard";
 
 const Review = () => {
   return (
-    <div className="w-full flex justify-center items-center mt-40 md:mt-0">
+    <div className="w-full flex justify-center items-center mt-64 md:mt-0">
       <div className="flex justify-center items-center flex-col gap-10">
         <h1 className="text-[48px] text-center md:text-left font-bold">
           Loved by the world's best teams
