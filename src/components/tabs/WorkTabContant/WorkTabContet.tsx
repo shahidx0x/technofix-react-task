@@ -38,34 +38,19 @@ const WContent = ({ reverse }: Content) => {
             </p>
             <div className="flex gap-8">
               <div className="flex gap-5">
-                <img
-                  src="../../../../public/assets/image/tools/diamond.svg"
-                  alt=""
-                />
+                <img src="./assets/image/tools/diamond.svg" alt="" />
               </div>
-              <div className="bg-[url('../../../../public/assets/image/tools/Vector.svg')] bg-no-repeat pr-2 flex justify-center items-center">
+              <div className="bg-[url('./assets/image/tools/Vector.svg')] bg-no-repeat pr-2 flex justify-center items-center">
                 <div className="flex justify-center items-center">
-                  <img
-                    src="../../../../public/assets/image/tools/X.svg"
-                    alt=""
-                  />
-                  <img
-                    src="../../../../public/assets/image/tools/d.svg"
-                    alt=""
-                  />
+                  <img src="./assets/image/tools/X.svg" alt="" />
+                  <img src="./assets/image/tools/d.svg" alt="" />
                 </div>
               </div>
               <div>
-                <img
-                  src="../../../../public/assets/image/tools/figma.svg"
-                  alt=""
-                />
+                <img src="./assets/image/tools/figma.svg" alt="" />
               </div>
               <div>
-                <img
-                  src="../../../../public/assets/image/tools/notion.svg"
-                  alt=""
-                />
+                <img src="./assets/image/tools/notion.svg" alt="" />
               </div>
             </div>
           </div>
@@ -74,7 +59,7 @@ const WContent = ({ reverse }: Content) => {
         <div>
           <img
             className="h-full md:h-[500px]"
-            src="../../../../public/assets/image/tabs/uxdesignwithoutshadow.jpg.png"
+            src="./assets/image/tabs/uxdesignwithoutshadow.jpg.png"
             alt="worktab"
           />
         </div>

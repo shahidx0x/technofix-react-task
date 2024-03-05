@@ -27,7 +27,7 @@ const BContent = ({ reverse }: Content) => {
         <div>
           <img
             className="h-full md:h-[500px]"
-            src="../../../public/assets/image/tabs/Brainstormwithoutshadow.jpg.png"
+            src="./assets/image/tabs/Brainstormwithoutshadow.jpg.png"
             alt="worktab"
           />
         </div>

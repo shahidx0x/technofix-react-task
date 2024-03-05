@@ -38,12 +38,12 @@ const Hero = () => {
                       {Array.from({ length: 4 }).map((_, index) => (
                         <img
                           key={index}
-                          src="../../../public/assets/image/header/start-full.svg"
+                          src="./assets/image/header/start-full.svg"
                           alt="star"
                         />
                       ))}
                       <img
-                        src="../../../public/assets/image/header/star-half.svg"
+                        src="./assets/image/header/star-half.svg"
                         alt="star"
                       />
                     </div>
@@ -53,10 +53,7 @@ const Hero = () => {
                   </div>
                   <div className="w-[200px] h-[40px] flex justify-evenly items-center">
                     <div>
-                      <img
-                        src="../../../public/assets/image/header/g2.svg"
-                        alt=""
-                      />
+                      <img src="./assets/image/header/g2.svg" alt="" />
                     </div>
                     <p className="font-bold text-md">GetApp</p>
                     <p className="font-bold text-md">Capterra</p>
@@ -68,7 +65,7 @@ const Hero = () => {
 
           <div className="w-[400px] md:w-[800px] lg:w-full xl:w-[1200px] md:h-full flex justify-center items-center">
             <img
-              src="../../../public/assets/image/header/header.svg"
+              src="./assets/image/header/header.svg"
               alt=""
               className="w-full"
             />
