@@ -19,10 +19,7 @@ const Navigation = () => {
           {/* left of the navigation bar */}
           <div>
             <div className="flex gap-8 items-center">
-              <img
-                src="../../../public/assets/image/header/miro.svg"
-                alt="miro"
-              />
+              <img src="./assets/image/header/miro.svg" alt="miro" />
               {navigation.map((each_nav) => (
                 <p
                   key={each_nav.title}
@@ -51,14 +48,14 @@ const Navigation = () => {
                   <SheetTitle className="flex justify-between border-b">
                     <div className=" p-4">
                       <img
-                        src="../../../public/assets/image/header/miro.svg"
+                        src="./assets/image/header/miro.svg"
                         alt=""
                         width={100}
                       />
                     </div>
                     <p className="flex justify-center items-center pt-1 gap-1 hover:font-bold">
                       <img
-                        src="../../../public/assets/image/navigation/world.svg"
+                        src="./assets/image/navigation/world.svg"
                         alt="translate"
                       />
                       <span className="hover:font-bold">EN</span>
@@ -92,7 +89,7 @@ const Navigation = () => {
                 </Button>
                 <div className="border border-gray-400 mt-10 justify-center items-center flex p-20 rounded-lg bg-indigo-400">
                   <img
-                    src="../../../public/assets/image/navigation/miro-bgr.png"
+                    src="./assets/image/navigation/miro-bgr.png"
                     alt=""
                     width={200}
                   />
@@ -108,7 +105,7 @@ const Navigation = () => {
             <div className="flex gap-8 lg:gap-2 lg:mt-2 lg:pr-0 xl:gap-3 2xl:gap-8 items-center font-medium">
               <p className="flex gap-1 hover:font-bold">
                 <img
-                  src="../../../public/assets/image/navigation/world.svg"
+                  src="./assets/image/navigation/world.svg"
                   alt="translate"
                 />
                 <p className="hover:font-bold cursor-pointer">EN</p>
